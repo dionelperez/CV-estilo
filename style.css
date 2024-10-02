@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.columna-izquierda {
+    flex: 1;
+    background-color: gray;
+    padding: 10px;
+    max-width: 400px;
+}
+
+.columna-derecha {
+    flex: 0 0 400px;
+    background-color: gainsboro;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 27px;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-size: 18px;
+}
